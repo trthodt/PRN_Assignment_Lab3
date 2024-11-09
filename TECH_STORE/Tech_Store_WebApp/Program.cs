@@ -12,7 +12,6 @@ namespace Tech_Store_WebApp
 
             // Add services to the container.
             builder.Services.AddRazorPages();
-            builder.Services.AddScoped<PRN221_ASSIGNMENTContext>();
             builder.Services.AddScoped<IUserService, UserService>();
             builder.Services.AddScoped<IProductService, ProductService>();
             builder.Services.AddScoped<IOrderService, OrderService>();

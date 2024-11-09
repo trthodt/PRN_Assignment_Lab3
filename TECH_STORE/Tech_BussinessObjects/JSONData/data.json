@@ -80,7 +80,7 @@
       "description": "Latest model smartphone with 5G support",
       "price": 699.99,
       "category_id": 4,
-      "quantity": 0,
+      "quantity": 2,
       "created_at": "2024-10-16T13:53:27.26",
       "category": {
         "id": 4,
@@ -357,22 +357,6 @@
       "category": {
         "id": 3,
         "category_name": "Computers \u0026 Accessories",
-        "created_at": "2024-10-16T13:53:27.26",
-        "products": []
-      },
-      "order_details": []
-    },
-    {
-      "id": 0,
-      "product_name": "Laptop",
-      "description": "1",
-      "price": 1.00,
-      "category_id": 2,
-      "quantity": 2,
-      "created_at": null,
-      "category": {
-        "id": 2,
-        "category_name": "Home Appliances",
         "created_at": "2024-10-16T13:53:27.26",
         "products": []
       },

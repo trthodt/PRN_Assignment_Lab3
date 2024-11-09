@@ -91,6 +91,10 @@ namespace Tech_Daos.JSON_Dao
         {
             try
             {
+                int newId = _data.Products.Any() ? _data.Products.Max(x => x.Id) + 1 : 1;
+
+                product.Id = newId;
+
                 _data.Products.Add(product);
                 SaveData();
                 return true;
