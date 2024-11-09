@@ -1,0 +1,726 @@
+{
+  "Users": [
+    {
+      "id": 1,
+      "fullname": "Truong Tho",
+      "email": "tho@gmail.com",
+      "password": "123",
+      "role": "customer",
+      "created_at": "2024-10-16T13:53:27.253",
+      "orders": []
+    },
+    {
+      "id": 2,
+      "fullname": "Alice",
+      "email": "alice@gmail.com",
+      "password": "123",
+      "role": "customer",
+      "created_at": "2024-10-16T13:53:27.253",
+      "orders": []
+    },
+    {
+      "id": 3,
+      "fullname": "Admin User",
+      "email": "admin@gmail.com",
+      "password": "123",
+      "role": "admin",
+      "created_at": "2024-10-16T13:53:27.253",
+      "orders": []
+    },
+    {
+      "id": 4,
+      "fullname": "John Doe",
+      "email": "johndoe@example.com",
+      "password": "password123",
+      "role": "customer",
+      "created_at": "2024-10-30T20:03:26.247",
+      "orders": []
+    },
+    {
+      "id": 5,
+      "fullname": "Jane Smith",
+      "email": "janesmith@example.com",
+      "password": "password123",
+      "role": "customer",
+      "created_at": "2024-10-30T20:03:26.247",
+      "orders": []
+    },
+    {
+      "id": 6,
+      "fullname": "Michael Brown",
+      "email": "michaelbrown@example.com",
+      "password": "password123",
+      "role": "customer",
+      "created_at": "2024-10-30T20:03:26.247",
+      "orders": []
+    },
+    {
+      "id": 7,
+      "fullname": "Emily Davis",
+      "email": "emilydavis@example.com",
+      "password": "password123",
+      "role": "customer",
+      "created_at": "2024-10-30T20:03:26.247",
+      "orders": []
+    },
+    {
+      "id": 8,
+      "fullname": "Sarah Johnson",
+      "email": "sarahjohnson@example.com",
+      "password": "password123",
+      "role": "customer",
+      "created_at": "2024-10-30T20:03:26.247",
+      "orders": []
+    }
+  ],
+  "Products": [
+    {
+      "id": 1,
+      "product_name": "Smartphone",
+      "description": "Latest model smartphone with 5G support",
+      "price": 699.99,
+      "category_id": 4,
+      "quantity": 0,
+      "created_at": "2024-10-16T13:53:27.26",
+      "category": {
+        "id": 4,
+        "category_name": "Smart Devices",
+        "created_at": "2024-10-16T13:53:27.26",
+        "products": []
+      },
+      "order_details": []
+    },
+    {
+      "id": 2,
+      "product_name": "Laptop",
+      "description": "High-performance laptop with dfgdfg16GB RAM",
+      "price": 100.00,
+      "category_id": 1,
+      "quantity": 0,
+      "created_at": "2024-10-16T13:53:27.26",
+      "category": {
+        "id": 1,
+        "category_name": "Electronics",
+        "created_at": "2024-10-16T13:53:27.26",
+        "products": []
+      },
+      "order_details": []
+    },
+    {
+      "id": 3,
+      "product_name": "Tablet",
+      "description": "10-inch tablet with 64GB storage",
+      "price": 299.99,
+      "category_id": 3,
+      "quantity": 0,
+      "created_at": "2024-10-16T13:53:27.26",
+      "category": {
+        "id": 3,
+        "category_name": "Computers \u0026 Accessories",
+        "created_at": "2024-10-16T13:53:27.26",
+        "products": []
+      },
+      "order_details": []
+    },
+    {
+      "id": 4,
+      "product_name": "Smartwatch",
+      "description": "Wearable smartwatch with health tracking",
+      "price": 199.90,
+      "category_id": 1,
+      "quantity": 0,
+      "created_at": "2024-10-16T13:53:27.26",
+      "category": {
+        "id": 1,
+        "category_name": "Electronics",
+        "created_at": "2024-10-16T13:53:27.26",
+        "products": []
+      },
+      "order_details": []
+    },
+    {
+      "id": 5,
+      "product_name": "Smartwatch",
+      "description": "Wearable smartwatch with health tracking.",
+      "price": 199.90,
+      "category_id": 4,
+      "quantity": 0,
+      "created_at": "2024-10-30T16:01:11.303",
+      "category": {
+        "id": 4,
+        "category_name": "Smart Devices",
+        "created_at": "2024-10-16T13:53:27.26",
+        "products": []
+      },
+      "order_details": []
+    },
+    {
+      "id": 6,
+      "product_name": "Smartwatch",
+      "description": "Wearable smartwatch with health tracking",
+      "price": 199.90,
+      "category_id": 5,
+      "quantity": 0,
+      "created_at": "2024-10-30T16:01:37.633",
+      "category": {
+        "id": 5,
+        "category_name": "Gaming",
+        "created_at": "2024-10-16T13:53:27.26",
+        "products": []
+      },
+      "order_details": []
+    },
+    {
+      "id": 7,
+      "product_name": "Samsung Galaxy S21",
+      "description": "Latest model of Samsung Galaxy with high-end camera",
+      "price": 799.99,
+      "category_id": 1,
+      "quantity": 0,
+      "created_at": "2024-10-30T20:03:33.497",
+      "category": {
+        "id": 1,
+        "category_name": "Electronics",
+        "created_at": "2024-10-16T13:53:27.26",
+        "products": []
+      },
+      "order_details": []
+    },
+    {
+      "id": 8,
+      "product_name": "Apple iPhone 13",
+      "description": "Newest iPhone with improved battery life",
+      "price": 999.99,
+      "category_id": 1,
+      "quantity": 0,
+      "created_at": "2024-10-30T20:03:33.497",
+      "category": {
+        "id": 1,
+        "category_name": "Electronics",
+        "created_at": "2024-10-16T13:53:27.26",
+        "products": []
+      },
+      "order_details": []
+    },
+    {
+      "id": 9,
+      "product_name": "Dell XPS 13 Laptop",
+      "description": "Powerful laptop with 16GB RAM and 512GB SSD",
+      "price": 1200.00,
+      "category_id": 3,
+      "quantity": 0,
+      "created_at": "2024-10-30T20:03:33.497",
+      "category": {
+        "id": 3,
+        "category_name": "Computers \u0026 Accessories",
+        "created_at": "2024-10-16T13:53:27.26",
+        "products": []
+      },
+      "order_details": []
+    },
+    {
+      "id": 10,
+      "product_name": "Apple AirPods Pro",
+      "description": "Wireless earphones with noise cancellation",
+      "price": 249.99,
+      "category_id": 4,
+      "quantity": 0,
+      "created_at": "2024-10-30T20:03:33.497",
+      "category": {
+        "id": 4,
+        "category_name": "Smart Devices",
+        "created_at": "2024-10-16T13:53:27.26",
+        "products": []
+      },
+      "order_details": []
+    },
+    {
+      "id": 11,
+      "product_name": "Sony PlayStation 5",
+      "description": "Next-generation gaming console",
+      "price": 300.00,
+      "category_id": 5,
+      "quantity": 0,
+      "created_at": "2024-10-30T20:03:33.497",
+      "category": {
+        "id": 5,
+        "category_name": "Gaming",
+        "created_at": "2024-10-16T13:53:27.26",
+        "products": []
+      },
+      "order_details": []
+    },
+    {
+      "id": 12,
+      "product_name": "Smartwatch",
+      "description": "Wearable smartwatch with health tracking.",
+      "price": 199.90,
+      "category_id": 4,
+      "quantity": 0,
+      "created_at": "2024-10-30T16:01:11.303",
+      "category": {
+        "id": 4,
+        "category_name": "Smart Devices",
+        "created_at": "2024-10-16T13:53:27.26",
+        "products": []
+      },
+      "order_details": []
+    },
+    {
+      "id": 13,
+      "product_name": "Smartwatch",
+      "description": "Wearable smartwatch with health tracking",
+      "price": 199.90,
+      "category_id": 5,
+      "quantity": 0,
+      "created_at": "2024-10-30T16:01:37.633",
+      "category": {
+        "id": 5,
+        "category_name": "Gaming",
+        "created_at": "2024-10-16T13:53:27.26",
+        "products": []
+      },
+      "order_details": []
+    },
+    {
+      "id": 14,
+      "product_name": "Samsung Galaxy S21",
+      "description": "Latest model of Samsung Galaxy with high-end camera",
+      "price": 799.99,
+      "category_id": 1,
+      "quantity": 0,
+      "created_at": "2024-10-30T20:03:33.497",
+      "category": {
+        "id": 1,
+        "category_name": "Electronics",
+        "created_at": "2024-10-16T13:53:27.26",
+        "products": []
+      },
+      "order_details": []
+    },
+    {
+      "id": 15,
+      "product_name": "Apple iPhone 13",
+      "description": "Newest iPhone with improved battery life",
+      "price": 999.99,
+      "category_id": 1,
+      "quantity": 0,
+      "created_at": "2024-10-30T20:03:33.497",
+      "category": {
+        "id": 1,
+        "category_name": "Electronics",
+        "created_at": "2024-10-16T13:53:27.26",
+        "products": []
+      },
+      "order_details": []
+    },
+    {
+      "id": 16,
+      "product_name": "Dell XPS 13 Laptop",
+      "description": "Powerful laptop with 16GB RAM and 512GB SSD",
+      "price": 1200.00,
+      "category_id": 3,
+      "quantity": 0,
+      "created_at": "2024-10-30T20:03:33.497",
+      "category": {
+        "id": 3,
+        "category_name": "Computers \u0026 Accessories",
+        "created_at": "2024-10-16T13:53:27.26",
+        "products": []
+      },
+      "order_details": []
+    },
+    {
+      "id": 17,
+      "product_name": "Apple AirPods Pro",
+      "description": "Wireless earphones with noise cancellation",
+      "price": 249.99,
+      "category_id": 4,
+      "quantity": 0,
+      "created_at": "2024-10-30T20:03:33.497",
+      "category": {
+        "id": 4,
+        "category_name": "Smart Devices",
+        "created_at": "2024-10-16T13:53:27.26",
+        "products": []
+      },
+      "order_details": []
+    },
+    {
+      "id": 18,
+      "product_name": "Sony PlayStation 5",
+      "description": "Next-generation gaming console",
+      "price": 300.00,
+      "category_id": 3,
+      "quantity": 0,
+      "created_at": "2024-10-30T20:03:33.497",
+      "category": {
+        "id": 3,
+        "category_name": "Computers \u0026 Accessories",
+        "created_at": "2024-10-16T13:53:27.26",
+        "products": []
+      },
+      "order_details": []
+    },
+    {
+      "id": 0,
+      "product_name": "Laptop",
+      "description": "1",
+      "price": 1.00,
+      "category_id": 2,
+      "quantity": 2,
+      "created_at": null,
+      "category": {
+        "id": 2,
+        "category_name": "Home Appliances",
+        "created_at": "2024-10-16T13:53:27.26",
+        "products": []
+      },
+      "order_details": []
+    }
+  ],
+  "Orders": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "total_amount": 1499.98,
+      "order_date": "2024-10-30T21:00:00",
+      "status": "pending",
+      "sser": null,
+      "order_details": []
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "total_amount": 549.89,
+      "order_date": "2024-10-30T22:00:00",
+      "status": "pending",
+      "sser": null,
+      "order_details": []
+    },
+    {
+      "id": 3,
+      "user_id": 3,
+      "total_amount": 1899.98,
+      "order_date": "2024-10-31T10:00:00",
+      "status": "pending",
+      "sser": null,
+      "order_details": []
+    },
+    {
+      "id": 4,
+      "user_id": 4,
+      "total_amount": 1299.99,
+      "order_date": "2024-10-31T11:30:00",
+      "status": "pending",
+      "sser": null,
+      "order_details": []
+    },
+    {
+      "id": 5,
+      "user_id": 5,
+      "total_amount": 999.99,
+      "order_date": "2024-10-31T13:00:00",
+      "status": "pending",
+      "sser": null,
+      "order_details": []
+    },
+    {
+      "id": 6,
+      "user_id": 6,
+      "total_amount": 599.99,
+      "order_date": "2024-10-31T14:00:00",
+      "status": "pending",
+      "sser": null,
+      "order_details": []
+    },
+    {
+      "id": 7,
+      "user_id": 7,
+      "total_amount": 1799.98,
+      "order_date": "2024-10-31T15:30:00",
+      "status": "pending",
+      "sser": null,
+      "order_details": []
+    },
+    {
+      "id": 8,
+      "user_id": 8,
+      "total_amount": 549.89,
+      "order_date": "2024-10-31T16:00:00",
+      "status": "pending",
+      "sser": null,
+      "order_details": []
+    },
+    {
+      "id": 9,
+      "user_id": 1,
+      "total_amount": 949.98,
+      "order_date": "2024-10-31T17:00:00",
+      "status": "pending",
+      "sser": null,
+      "order_details": []
+    },
+    {
+      "id": 10,
+      "user_id": 2,
+      "total_amount": 1299.98,
+      "order_date": "2024-10-31T18:30:00",
+      "status": "pending",
+      "sser": null,
+      "order_details": []
+    },
+    {
+      "id": 11,
+      "user_id": 3,
+      "total_amount": 249.99,
+      "order_date": "2024-11-01T09:00:00",
+      "status": "pending",
+      "sser": null,
+      "order_details": []
+    },
+    {
+      "id": 12,
+      "user_id": 4,
+      "total_amount": 1449.98,
+      "order_date": "2024-11-01T10:30:00",
+      "status": "pending",
+      "sser": null,
+      "order_details": []
+    }
+  ],
+  "OrderDetails": [
+    {
+      "id": 1,
+      "order_id": 1,
+      "product_id": 7,
+      "quantity": 1,
+      "price": 799.99,
+      "total": 799.99,
+      "order": null,
+      "product": null
+    },
+    {
+      "id": 2,
+      "order_id": 1,
+      "product_id": 8,
+      "quantity": 1,
+      "price": 999.99,
+      "total": 999.99,
+      "order": null,
+      "product": null
+    },
+    {
+      "id": 3,
+      "order_id": 2,
+      "product_id": 4,
+      "quantity": 2,
+      "price": 199.90,
+      "total": 399.80,
+      "order": null,
+      "product": null
+    },
+    {
+      "id": 4,
+      "order_id": 3,
+      "product_id": 9,
+      "quantity": 1,
+      "price": 1200.00,
+      "total": 1200.00,
+      "order": null,
+      "product": null
+    },
+    {
+      "id": 5,
+      "order_id": 3,
+      "product_id": 1,
+      "quantity": 1,
+      "price": 699.99,
+      "total": 699.99,
+      "order": null,
+      "product": null
+    },
+    {
+      "id": 6,
+      "order_id": 4,
+      "product_id": 7,
+      "quantity": 1,
+      "price": 799.99,
+      "total": 799.99,
+      "order": null,
+      "product": null
+    },
+    {
+      "id": 7,
+      "order_id": 5,
+      "product_id": 8,
+      "quantity": 1,
+      "price": 999.99,
+      "total": 999.99,
+      "order": null,
+      "product": null
+    },
+    {
+      "id": 8,
+      "order_id": 6,
+      "product_id": 10,
+      "quantity": 1,
+      "price": 249.99,
+      "total": 249.99,
+      "order": null,
+      "product": null
+    },
+    {
+      "id": 9,
+      "order_id": 6,
+      "product_id": 3,
+      "quantity": 1,
+      "price": 299.99,
+      "total": 299.99,
+      "order": null,
+      "product": null
+    },
+    {
+      "id": 10,
+      "order_id": 7,
+      "product_id": 9,
+      "quantity": 1,
+      "price": 1200.00,
+      "total": 1200.00,
+      "order": null,
+      "product": null
+    },
+    {
+      "id": 11,
+      "order_id": 7,
+      "product_id": 4,
+      "quantity": 3,
+      "price": 199.90,
+      "total": 599.70,
+      "order": null,
+      "product": null
+    },
+    {
+      "id": 12,
+      "order_id": 8,
+      "product_id": 8,
+      "quantity": 1,
+      "price": 999.99,
+      "total": 999.99,
+      "order": null,
+      "product": null
+    },
+    {
+      "id": 13,
+      "order_id": 8,
+      "product_id": 10,
+      "quantity": 1,
+      "price": 249.99,
+      "total": 249.99,
+      "order": null,
+      "product": null
+    },
+    {
+      "id": 14,
+      "order_id": 9,
+      "product_id": 7,
+      "quantity": 1,
+      "price": 799.99,
+      "total": 799.99,
+      "order": null,
+      "product": null
+    },
+    {
+      "id": 15,
+      "order_id": 9,
+      "product_id": 1,
+      "quantity": 1,
+      "price": 699.99,
+      "total": 699.99,
+      "order": null,
+      "product": null
+    },
+    {
+      "id": 16,
+      "order_id": 10,
+      "product_id": 9,
+      "quantity": 1,
+      "price": 1200.00,
+      "total": 1200.00,
+      "order": null,
+      "product": null
+    },
+    {
+      "id": 17,
+      "order_id": 10,
+      "product_id": 3,
+      "quantity": 1,
+      "price": 299.99,
+      "total": 299.99,
+      "order": null,
+      "product": null
+    },
+    {
+      "id": 18,
+      "order_id": 11,
+      "product_id": 10,
+      "quantity": 1,
+      "price": 249.99,
+      "total": 249.99,
+      "order": null,
+      "product": null
+    },
+    {
+      "id": 19,
+      "order_id": 12,
+      "product_id": 8,
+      "quantity": 1,
+      "price": 999.99,
+      "total": 999.99,
+      "order": null,
+      "product": null
+    },
+    {
+      "id": 20,
+      "order_id": 12,
+      "product_id": 7,
+      "quantity": 1,
+      "price": 799.99,
+      "total": 799.99,
+      "order": null,
+      "product": null
+    }
+  ],
+  "Categories": [
+    {
+      "id": 1,
+      "category_name": "Electronics",
+      "created_at": "2024-10-16T13:53:27.26",
+      "products": []
+    },
+    {
+      "id": 2,
+      "category_name": "Home Appliances",
+      "created_at": "2024-10-16T13:53:27.26",
+      "products": []
+    },
+    {
+      "id": 3,
+      "category_name": "Computers \u0026 Accessories",
+      "created_at": "2024-10-16T13:53:27.26",
+      "products": []
+    },
+    {
+      "id": 4,
+      "category_name": "Smart Devices",
+      "created_at": "2024-10-16T13:53:27.26",
+      "products": []
+    },
+    {
+      "id": 5,
+      "category_name": "Gaming",
+      "created_at": "2024-10-16T13:53:27.26",
+      "products": []
+    }
+  ]
+}

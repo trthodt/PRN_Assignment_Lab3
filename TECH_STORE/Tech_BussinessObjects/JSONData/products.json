@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "product_name": "Smartphone",
+    "description": "Latest model smartphone with 5G support",
+    "price": 699.99,
+    "category_id": 4,
+    "created_at": "2024-10-16T13:53:27.260",
+    "Quantity": 10
+  },
+  {
+    "id": 2,
+    "product_name": "Laptop",
+    "description": "High-performance laptop with dfgdfg16GB RAM",
+    "price": 100.00,
+    "category_id": 1,
+    "created_at": "2024-10-16T13:53:27.260",
+    "Quantity": 10
+  },
+  {
+    "id": 3,
+    "product_name": "Tablet",
+    "description": "10-inch tablet with 64GB storage",
+    "price": 299.99,
+    "category_id": 3,
+    "created_at": "2024-10-16T13:53:27.260",
+    "Quantity": 100
+  },
+  {
+    "id": 4,
+    "product_name": "Smartwatch",
+    "description": "Wearable smartwatch with health tracking",
+    "price": 199.90,
+    "category_id": 1,
+    "created_at": "2024-10-16T13:53:27.260",
+    "Quantity": 100
+  },
+  {
+    "id": 5,
+    "product_name": "Smartwatch",
+    "description": "Wearable smartwatch with health tracking.",
+    "price": 199.90,
+    "category_id": 4,
+    "created_at": "2024-10-30T16:01:11.303",
+    "Quantity": 100
+  },
+  {
+    "id": 6,
+    "product_name": "Smartwatch",
+    "description": "Wearable smartwatch with health tracking",
+    "price": 199.90,
+    "category_id": 5,
+    "created_at": "2024-10-30T16:01:37.633",
+    "Quantity": 100
+  },
+  {
+    "id": 7,
+    "product_name": "Samsung Galaxy S21",
+    "description": "Latest model of Samsung Galaxy with high-end camera",
+    "price": 799.99,
+    "category_id": 1,
+    "created_at": "2024-10-30T20:03:33.497",
+    "Quantity": 50
+  },
+  {
+    "id": 8,
+    "product_name": "Apple iPhone 13",
+    "description": "Newest iPhone with improved battery life",
+    "price": 999.99,
+    "category_id": 1,
+    "created_at": "2024-10-30T20:03:33.497",
+    "Quantity": 30
+  },
+  {
+    "id": 9,
+    "product_name": "Dell XPS 13 Laptop",
+    "description": "Powerful laptop with 16GB RAM and 512GB SSD",
+    "price": 1200.00,
+    "category_id": 3,
+    "created_at": "2024-10-30T20:03:33.497",
+    "Quantity": 25
+  },
+  {
+    "id": 10,
+    "product_name": "Apple AirPods Pro",
+    "description": "Wireless earphones with noise cancellation",
+    "price": 249.99,
+    "category_id": 4,
+    "created_at": "2024-10-30T20:03:33.497",
+    "Quantity": 100
+  },
+  {
+    "id": 11,
+    "product_name": "Sony PlayStation 5",
+    "description": "Next-generation gaming console",
+    "price": 300.00,
+    "category_id": 5,
+    "created_at": "2024-10-30T20:03:33.497",
+    "Quantity": 25
+  },
+  {
+    "id": 12,
+    "product_name": "Smartwatch",
+    "description": "Wearable smartwatch with health tracking.",
+    "price": 199.90,
+    "category_id": 4,
+    "created_at": "2024-10-30T16:01:11.303",
+    "Quantity": 100
+  },
+  {
+    "id": 13,
+    "product_name": "Smartwatch",
+    "description": "Wearable smartwatch with health tracking",
+    "price": 199.90,
+    "category_id": 5,
+    "created_at": "2024-10-30T16:01:37.633",
+    "Quantity": 100
+  },
+  {
+    "id": 14,
+    "product_name": "Samsung Galaxy S21",
+    "description": "Latest model of Samsung Galaxy with high-end camera",
+    "price": 799.99,
+    "category_id": 1,
+    "created_at": "2024-10-30T20:03:33.497",
+    "Quantity": 50
+  },
+  {
+    "id": 15,
+    "product_name": "Apple iPhone 13",
+    "description": "Newest iPhone with improved battery life",
+    "price": 999.99,
+    "category_id": 1,
+    "created_at": "2024-10-30T20:03:33.497",
+    "Quantity": 30
+  },
+  {
+    "id": 16,
+    "product_name": "Dell XPS 13 Laptop",
+    "description": "Powerful laptop with 16GB RAM and 512GB SSD",
+    "price": 1200.00,
+    "category_id": 3,
+    "created_at": "2024-10-30T20:03:33.497",
+    "Quantity": 25
+  },
+  {
+    "id": 17,
+    "product_name": "Apple AirPods Pro",
+    "description": "Wireless earphones with noise cancellation",
+    "price": 249.99,
+    "category_id": 4,
+    "created_at": "2024-10-30T20:03:33.497",
+    "Quantity": 100
+  },
+  {
+    "id": 18,
+    "product_name": "Sony PlayStation 5",
+    "description": "Next-generation gaming console",
+    "price": 300.00,
+    "category_id": 3,
+    "created_at": "2024-10-30T20:03:33.497",
+    "Quantity": 27
+  }
+]
